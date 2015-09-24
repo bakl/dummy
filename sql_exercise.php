@@ -2,10 +2,11 @@
 
 require_once 'vendor/autoload.php';
 
+use Exercise\TravelersRepository;
 
 $climate = new League\CLImate\CLImate;
 
-$climate->description("This is test script");
+$climate->description("This is SQL exercise script");
 
 $climate->arguments->add([
     'string' => [
@@ -26,10 +27,10 @@ $inputString = $climate->arguments->get("string");
 
 $climate->clear();
 
-$climate->red('Hello. This is test script.');
+$climate->red('Hello. This is SQL exercise script.');
 
 $climate->green()->inline("Input string: ")->white($inputString);
 
-$stringHelper = new StringHelper();
+$stringHelper = new TravelersRepository();
 
 $climate->green()->inline("Out string: " )->white($stringHelper->revertAndExcludeVowels($inputString));

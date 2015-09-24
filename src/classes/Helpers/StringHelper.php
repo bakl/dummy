@@ -1,5 +1,7 @@
 <?php
 
+namespace Exercise\Helpers;
+
 /**
  * User: sergeymartyanov
  * Date: 24.09.15

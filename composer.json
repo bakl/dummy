@@ -1,6 +1,6 @@
 {
-  "name": "bakl/dummy",
-  "description": "Dummy test",
+  "name": "bakl/exercise",
+  "description": "Exercise",
   "minimum-stability": "stable",
   "license": "proprietary",
   "authors": [
@@ -10,7 +10,14 @@
     }
   ],
   "require" : {
-    "league/climate" : "*"
+    "league/climate" : "*",
+    "phpunit/phpunit": "3.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Exercise\\Tests\\": "tests/",
+      "Exercise\\": "src/classes/"
+    }
   }
 
 }

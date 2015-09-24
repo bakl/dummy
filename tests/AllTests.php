@@ -15,6 +15,7 @@ class AllTests
         $suite = new \PHPUnit_Framework_TestSuite();
         $suite->setName("All Tests");
         $suite->addTestSuite("Exercise\\Tests\\TestStringHelper");
+        $suite->addTestSuite("Exercise\\Tests\\TestTravelersRepository");
 
         return $suite;
     }

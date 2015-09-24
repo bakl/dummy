@@ -1,0 +1,16 @@
+{
+  "name": "bakl/dummy",
+  "description": "Dummy test",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Sergey Martyanov",
+      "email": "s-m-box@yandex.ru"
+    }
+  ],
+  "require" : {
+    "league/climate" : "*"
+  }
+
+}

@@ -1,7 +1,7 @@
 # exercise
 For install:
 <pre>
-git clonet https://github.com/bakl/exercise.git .
+git clone https://github.com/bakl/exercise.git .
 composer update
 </pre>
 
